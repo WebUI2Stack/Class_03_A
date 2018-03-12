@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menubar{
+    
+    min-height: 100px;
+    background-color: greenyellow;
+    width: 1000px;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 2px solid black;
+    border-color: black;
+    
+    
+    }
+
+.menubar ul{
+    
+    transition: none;
+    }
+
+
+.menubar ul li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+.menubar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 38px 32.85px;
+   
+   
+    
+    
+}
+.menubar ul li a:hover{
+    color:red;
+    background-color: deepskyblue;
+    transform: scale(1.1);
+/*     transition: 1s;*/
+    
+    
+}
+
+
+.header{
+    min-height: 100px;
+    background-color: burlywood;
+    
+}
+
+.wraper{
+    
+/*    display: block;*/
+    
+}
+.sidebar{
+    
+    min-height: 750px;
+    background-color: blueviolet;
+    width:25%;
+    float: left;
+    }
+
+.main_contain{
+    
+    min-height: 750px;
+    background-color: chocolate;
+    width: 75%;
+    float: right;
+    
+}
+.footer{
+    
+      min-height: 124px;
+    background-color: burlywood;
+    clear:both;
+    }
+
+/*Dropdown menu*/
+
+.menubar{}
+.menubar ul{}
+.menubar ul li{}
+
+.menubar ul li ul{
+    
+    position: absolute;
+    background-color: white;
+    width:120px;
+    left:-999999999px;
+    
+   
+    
+}
+.menubar ul li:hover ul{
+    
+    left:0px;
+    
+}
+.menubar ul li ul li{
+    
+    clear: both;
+    
+    
+     
+}
+.menubar ul li ul li a{
+    
+    display: block;
+    padding: 40px 30px;
+    width: 60px;
+    transition: none;
+   
+    
+}
+.menubar ul li ul li a:hover{
+    
+    transition: 1s;
+}
+
+
+
